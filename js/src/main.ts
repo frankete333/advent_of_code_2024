@@ -1,6 +1,8 @@
 import * as readline from 'readline';
+import * as Day1 from './puzzles/day1';
 
 const puzzles = [
+    Day1.puzzle
 ];
 
 const rl = readline.createInterface({
